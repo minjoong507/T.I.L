@@ -38,12 +38,26 @@
 
 ## 2. Two-State Process Model
 
+<div>
+<center>
+<img src="https://github.com/minjoong507/T.I.L/blob/master/Operating%20System/img/two-state-process-model.png" width="60%;"></img>
+</center>
+</div>
+
+
 - 프로세스 상태는 Not running, Running 두가지로 존재.
 - 디스패처가 프로세스 상태를 바꿔줌. Ready queue에 존재하는 프로세스를 선택.
 
 <br/>
 
 ## 3. Five-State Process Model
+
+<div>
+<center>
+<img src="https://github.com/minjoong507/T.I.L/blob/master/Operating%20System/img/five-state-process-model.jpg" width="60%;"></img>
+</center>
+</div>
+
 
 - Two-State와 다른점은 제목 그대로 세가지 상태가 더 많이 있음.
 - States
@@ -57,6 +71,13 @@
 <br/>
 
 ## 4. Suspended Processes
+
+<div>
+<center>
+<img src="https://github.com/minjoong507/T.I.L/blob/master/Operating%20System/img/suspend-state-process-model.png"></img>
+</center>
+</div>
+
 
 - Swapping : 프로세스 일부나 전체를 메인 메모리로 부터 디스크로 이동하는 방법이다.
 - Blocked와 차이는 프로세스가 메인 메모리에 존재하는지에 대한 여부.
