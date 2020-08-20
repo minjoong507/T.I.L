@@ -20,10 +20,15 @@
 - Multithread process model에서는 single thread process model과 달리 pcb만 존재하는게 아니라 더 작은 크기의 tcb(thread control block)의 정보만 바꿔서 스케줄링한다.
 
 - 프로세스에 존재하는 모든 쓰레드에 영향을 주는 행위
-* Suspending : 프로세스가 suspend되면 모든 쓰레드 또한 suspend 된다. 왜냐하면 프로세스내 쓰레드들은 모두 같은 공간 주소를 공유하고 있기 때문이다.
-* Termination : 프로세스가 메인 메모리에서 삭제되면 프로세스내 모든 쓰레드 또한 삭제된다.
+  * **Suspending** : 프로세스가 suspend되면 모든 쓰레드 또한 suspend 된다. 왜냐하면 프로세스내 쓰레드들은 모두 같은 공간 주소를 공유하고 있기 때문이다.
+  * **Termination** : 프로세스가 메인 메모리에서 삭제되면 프로세스내 모든 쓰레드 또한 삭제된다.
+
+- Thread execution states
+  * key states : Running, Ready, Blocked
+  * others : Spawn, Block, Unblock, Finish 
 
 <br/>
+
 ## 3. Key benefits of Threads
 쓰레드의 장점 4가지를 살펴보자.
 - 프로세스를 새로 생성하는것 보다 쓰레드를 만드는데 걸리는 시간이 더 적다.
