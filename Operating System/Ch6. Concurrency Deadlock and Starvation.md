@@ -45,7 +45,7 @@
 > - Indirect : 위의 필요조건 3가지 중 하나를 제거.
 > - direct : circular wait을 제거.
 
-![deadlock prevention](img\deadlock prevention.PNG)
+![deadlock prevention](https://github.com/minjoong507/T.I.L/blob/master/Operating%20System/img/deadlock%20prevention.PNG)
 
 <br/>
 
