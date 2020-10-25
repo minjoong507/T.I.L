@@ -12,3 +12,6 @@
   * [Ch7. Memory Management](https://github.com/minjoong507/T.I.L/blob/master/Operating%20System/ppt/Ch7.%20Memory%20Management.md)
 
 ## 컴퓨터구조
+
+## 알고리즘
+ - 알고리즘
